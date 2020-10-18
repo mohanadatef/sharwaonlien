@@ -1,0 +1,172 @@
+/* @import "../style.css"; */
+
+.contact-info-img{
+    width: 100%;
+    margin-top: 50px;
+    height: 90%;
+}
+
+.info-phone-icon{
+    display: inline-block;
+    padding-right: 20px;
+}
+.info-phone{
+    display: inline-block;
+    vertical-align: middle;
+    color: #464646;
+    width: 60%;
+    z-index: 1000000;
+    word-break: break-all;
+}
+
+
+
+.contact-info-details{
+    margin-top: 50px;
+}
+.contact-info-pad{
+    margin-top: 20px;
+}
+
+.find-us-title{
+    text-align: center;
+
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #01aef0;
+}
+
+
+
+.find-map{
+    width: 100%;
+    border: none;
+    padding: 0;
+}
+
+.find-us-form
+{
+    background-image: url('../../imgs/Contact.jpg');
+        background-size: 100% 100%;
+        height: 430px;
+}
+
+
+
+
+  #contatti a{
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  @media (max-width: 575.98px) {
+
+    #contatti .maps iframe{
+      width: 100%;
+      height: 430px;
+    }
+
+
+   }
+   @media (max-width: 992px) {
+
+    .contact-info-header{
+      text-align: center;
+      color: #01aef0;
+      font-size: 50px;
+  }
+
+   .find-us-input {
+    border-radius: 30px;
+    height: 50px;
+    margin: 20px;
+    width: 90% !important;
+}
+.find-us-area{
+  border-radius: 30px;
+  height: 200px !important;
+  margin: 20px;
+  width: 90% !important;
+
+}
+.contact-send-btn{
+  color: #01aef0;
+  border: none;
+  outline: none;
+  background: white;
+  border-radius: 30px;
+  float: right;
+  margin: 0px 20px;
+}
+
+}
+
+  @media (min-width: 576px) {
+
+
+     #contatti .maps iframe{
+       width: 100%;
+       height: 430px;
+     }
+
+   }
+
+  @media (min-width: 768px) {
+
+
+    #contatti .maps iframe{
+      width: 100%;
+      height: 430px;
+    }
+  }
+
+  @media (min-width: 992px) {
+
+    .contact-info-header{
+
+      color: #01aef0;
+      font-size: 50px;
+      margin-top: 50px;
+  }
+     #contatti .maps iframe{
+       width: 100%;
+       height: 430px;
+     }
+
+     .find-us-input{
+      border-radius: 30px;
+      height: 50px;
+      margin: 20px 50px;
+      width: 80% !important;
+  }
+
+  .find-us-area{
+      border-radius: 30px;
+      height: 200px !important;
+      margin: 20px 50px;
+      width: 80% !important;
+
+
+  }
+  .contact-send-btn{
+    color: #01aef0;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 30px;
+    float: right;
+    margin: 0px 50px;
+  }
+
+
+
+  }
+
+
+  #author a{
+    color: #fff;
+    text-decoration: none;
+
+  }

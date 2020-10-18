@@ -1,0 +1,267 @@
+.book-head {
+    /* width: 100%; */
+    /* background-image: url('../../imgs/book.jpg'); */
+    /* background-size: 100% 100%; */
+    border: none;
+    /* min-height: 1000px; */
+    background-color: #00adef;
+
+}
+
+
+.book-form-background {
+    width: 100%;
+    background-image: url('../../imgs/Untitled-2.png');
+    background-size: 100% 100%;
+    border: none;
+    /* min-height: 1000px; */
+}
+
+
+.book-form-validate {
+    color: red;
+    font-size: 20px;
+}
+
+
+.boxes {
+    color: #757575;
+    background: transparent;
+    padding-top: 20px;
+}
+
+/*Checkboxes styles*/
+input[type="checkbox"] {
+    display: none;
+}
+
+
+input[type="checkbox"] + label:last-child {
+    margin-bottom: 0;
+}
+
+input[type="checkbox"] + label:before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #757575;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 5px;
+    -webkit-transition: all .12s, border-color .08s;
+    transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+    width: 10px;
+    top: 5px;
+    left: 5px;
+    border-radius: 0;
+    opacity: 1;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.book-btn-lg {
+    margin-top: 20px;
+    border-radius: 0px;
+    background: #00adef;
+    border: none;
+}
+
+.book-btn-lg:hover {
+    background: #00adef;
+    border: none;
+    outline: none;
+}
+
+
+@media (min-width: 992px) {
+    .login-form-background {
+        width: 100%;
+        background-image: url('../../imgs/Untitled-13.png');
+        background-size: 100% 100%;
+        border: none;
+        /* min-height: 1000px; */
+    }
+    .book-form-input {
+        background: transparent !important;
+        outline: none !important;
+        border-color: #757575;
+        border-radius: 0px;
+        height: 50px;
+    }
+
+    .book-head-img {
+        margin-top: 50px;
+        max-height: 600px;
+    }
+
+    .book-head-title {
+        color: white;
+        margin-top: 20px;
+        font-size: 60px;
+    }
+
+    .book-form-content {
+        padding-top: 50px;
+    }
+
+    .book-head-desc {
+        color: #757575;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .book-form {
+        padding: 50px;
+        background: #f1f1f1;
+        color: #757575;
+    }
+
+    input[type="checkbox"] + label {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #757575;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    .book-form-label {
+        font-size: 25px;
+    }
+
+    /* Start Model Code CSS */
+    .book-modal-span {
+        font-size: 50px;
+        color: #00adef;
+        text-align: center;
+    }
+
+    .book-modal-mes-detail {
+        text-align: center;
+        color: #757575;
+    }
+
+    .book-modal-title {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #00adef;
+        color: #00adef;
+        line-height: 0.1em;
+        margin: 30px 0 30px;
+    }
+
+    .book-modal-title-span {
+        background: #fff;
+        padding: 0 10px;
+    }
+
+    /* End Model Code CSS */
+    .book-img-size {
+        width: 80%;
+        margin-top: 25px;
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .book-form-label {
+        font-size: 20px;
+    }
+    .login-form-background {
+        width: 100%;
+        background-image: url('../../imgs/Untitled-141.png');
+        background-size: 100% 100%;
+        border: none;
+        /* min-height: 1000px; */
+    }
+    .book-form-input {
+        background: transparent !important;
+        outline: none !important;
+        border-color: #757575;
+        border-radius: 0px;
+        height: 40px;
+    }
+
+    .book-head-img {
+        display: none;
+    }
+
+    .book-head-title {
+        color: white;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .book-img-size {
+        display: none;
+    }
+
+    .book-form-content {
+        padding: 10px 10px;
+    }
+
+    .book-head-desc {
+        color: #757575;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .book-form {
+        padding: 30px;
+        background: #f1f1f1;
+        color: #757575;
+    }
+
+    input[type="checkbox"] + label {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 10px;
+        color: #757575;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+    }
+
+    /* Start Model Code CSS */
+    .book-modal-span {
+        font-size: 50px;
+        color: #00adef;
+        text-align: center;
+    }
+
+    .book-modal-mes-detail {
+        text-align: center;
+        color: #757575;
+    }
+
+    .book-modal-title {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #00adef;
+        color: #00adef;
+        line-height: 0.1em;
+        margin: 30px 0 30px;
+    }
+
+    .book-modal-title-span {
+        background: #fff;
+        padding: 0 10px;
+    }
+
+    /* End Model Code CSS */
+}
