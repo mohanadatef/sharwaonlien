@@ -1,1 +1,1 @@
-php -f index.php
+web:php -f index.php
