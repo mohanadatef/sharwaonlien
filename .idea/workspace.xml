@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="65e42a94-5c74-415d-9dc4-fcb22196b918" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,11 +62,20 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+              <caret column="42" selection-start-column="42" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -142,7 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/user/user_index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/ReportController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/report/store.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/HomeController.php" />
@@ -193,6 +202,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/TempletAreaController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
@@ -314,6 +324,11 @@
               <item name="sharwaonline" type="b2602c69:ProjectViewProjectNode" />
               <item name="sharwaonline" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="sharwaonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sharwaonline" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -328,6 +343,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\sharwaonline\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\buytest\resources\views\admin\report" />
     </key>
@@ -444,12 +462,12 @@
       <workItem from="1598090708926" duration="16000" />
       <workItem from="1598094219853" duration="52000" />
       <workItem from="1602182098610" duration="3577000" />
-      <workItem from="1608202864395" duration="272000" />
+      <workItem from="1608202864395" duration="513000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234144000" />
+    <option name="totallyTimeSpent" value="234385000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,9 +536,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/item/item_search_index.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/report/sales_index_all.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -785,7 +800,14 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
         </state>
       </provider>
     </entry>
